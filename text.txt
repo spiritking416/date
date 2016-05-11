@@ -1,0 +1,27 @@
+2016/4/16
+    用两个栈实现一个队列
+2016/4/18
+    用两个实现一个栈     
+2016/4/19
+    旋转数组的最小数字    
+2016/4/20
+    QML初探
+    网络IPC，套接字
+2016/4/21
+    socket编程实例
+    sockadrr_in结构体定义在netinet/in.h中
+　　  struct sockaddr是通用的套接字地址，而struct sockaddr_in则是internet环境下套接字的地址形式，二者长度一样，都是16个字节。二者是并列结构，指向sockaddr_in结构的指针也可以指向sockaddr。一般情况下，需要把sockaddr_in结构强制转换成sockaddr结构再传入系统调用函数中
+    INADDR_ANY指定网络地址为0.0.0.0，表示不确定地址，套接字端点可以被绑定到所有的系统网络接口上，即可以接收这个系统所安装的任何一个网卡的数据包。
+2016/4/22
+    IPV4因特网域（AF_INET)中，套接字地址用结构sockaddr_in表示，结构in_addr表示IPV4地址，IPV6因特网域(AF_INET6)套接字地址用结构sockaddr_in6表示
+　　  sockaddr_in的大小是16个字节,sockaddr的大小也是16字节，sockaddr_in6的大小是28个字节
+　　　　fork()函数创建子进程，返回０，pid或－１，库函数exit负责终止进程
+　　　　treating Unicode character as whitespace [-Wunicode-whitespace]警告，去掉空格即可
+     127.0.0.1是回送地址，指本地机
+2016/4/23
+     在QML中使用C++类和对象，必须满足：1.从QObject或QObject的派生类继承　2.使用Q_OBJECT宏
+　　 注册QML类型
+2016/4/24
+     用Connections对象处理信号和槽,属性target指向发出信号的对象 
+     qt,c++混合编程实现socket编程，单例模式
+     seekg函数可用于定位文件指针位置，但如果文件指针已经遇到eof，则必须调用clear函数，否则seekg函数无效

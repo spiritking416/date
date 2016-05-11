@@ -1,0 +1,19 @@
+Rectangle 
+    Gradient 渐变色　　GradientStop{position: ; color: }设置渐变色的终点
+　　  rotation属性指定矩形旋转的角度
+Item
+    是QtQuick中所有可视因素的基类，它本身什么也不绘制，但是定义了大部分的通用属性，除了x,y属性，z属性类型是real,数值越小，图元就越在底层
+　　属性opacity可以指定一个图元的透明度，0.0-1.0
+　　属性clip,根据自己的位置和大小来裁切它自己以及子类的显示范围
+　　 anchors　锚布局
+　　 keys对象处理按键
+Image
+　　默认的图片加载模式是阻塞式的
+   asynchronous属性为true，开启异步加载模式
+　　网络资源Image默认异步加载
+Q_INVOKABLE
+  　使用该宏修饰的c++函数可以在qml中直接调用
+Component.onCompleted
+　　可用作初始化
+emit
+    发射信号，即调用与信号相对应的槽
