@@ -19,5 +19,6 @@ main(void){
     printf("%d\n",fd);
     if(write(fd,"ssdfasdfsdfgsdfg",2)<0)
         //printf("write error\n");
+    printf("%d\n",O_ACCMODE);
     exit(1);
 }
